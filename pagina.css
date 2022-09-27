@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,300&family=Roboto+Mono&display=swap');
+
+
+
+body
+{
+    background-color: lightgrey;
+}
+
+
+hgroup {
+    background-color: #484c52;
+   
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto Mono', monospace;
+    
+    }
+    
+    li
+    {
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    
+    }    
+    html { scroll-behavior: smooth; }
+
+li:hover { color: gold; transition: 0.20s all; }
+
+.post-imag{
+    margin-left: 300px;
+}
+figure{
+margin-left: 200px;
+}
+
+.body {
+    background-color: #484c52;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+
+.post-imag{
+   
+    max-width: 1000px;
+}
